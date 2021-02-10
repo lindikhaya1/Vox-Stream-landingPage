@@ -1,0 +1,114 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: 637px;
+  color: #f9f9fa;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.billboard {
+  font-size: 20px;
+  margin-right: 70%;
+  position: relative;
+  left: 40px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.fab {
+  padding: 12px;
+  position: relative;
+  left: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.fa-facebook-f:hover {
+  color: #006b8f;
+}
+
+.fa-twitter:hover {
+  color: #54b6d6;
+}
+
+.fa-reddit-alien:hover {
+  color: rgba(255, 8, 0, 0.842);
+}
+
+.fa-linkedin-in:hover {
+  color: #006b8f;
+}
+
+form {
+  height: 30%;
+  position: relative;
+  left: 35%;
+  bottom: 150px;
+}
+
+form label {
+  position: relative;
+  top: 40px;
+}
+
+form input {
+  padding: 12px;
+  margin-top: 35px;
+  width: 40%;
+  border: none;
+  border-top-right-radius: 20px;
+  background: transparent;
+  font-size: 15px;
+  color: white;
+}
+
+form .submit {
+  margin-left: 70px;
+  width: 30%;
+  background: transparent;
+  border: 1.5px solid white;
+  color: #c4bebe;
+  padding: 12px;
+  border-bottom-left-radius: 20px;
+  margin-top: 15px;
+}
+
+form input:hover {
+  border-bottom: 2px solid white;
+}
+
+footer {
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+  position: relative;
+  bottom: 15em;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18em;
+}
+
+footer li {
+  padding-left: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.tom {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=style.css.map */
